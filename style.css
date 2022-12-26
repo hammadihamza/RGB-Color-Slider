@@ -1,0 +1,22 @@
+body {
+  background-color: #000;
+}
+.container {
+  background-color: #fff;
+  padding: 2rem;
+  width: 50%;
+  border-radius: 10px;
+  line-height: 2rem;
+  font-family: "Courier New", Courier, monospace;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
+
+input[type="range"] {
+  display: inline-block;
+  width: 80%;
+  cursor: ew-resize;
+}
